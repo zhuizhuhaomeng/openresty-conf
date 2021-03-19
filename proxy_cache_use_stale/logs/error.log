@@ -1,0 +1,77 @@
+2021/03/19 17:35:54 [emerg] 4781#4781: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2021/03/19 17:36:31 [notice] 4894#4894: using the "epoll" event method
+2021/03/19 17:36:31 [notice] 4894#4894: openresty/1.19.3.1
+2021/03/19 17:36:31 [notice] 4894#4894: built by gcc 8.3.1 20191121 (Red Hat 8.3.1-5) (GCC) 
+2021/03/19 17:36:31 [notice] 4894#4894: OS: Linux 4.18.0-240.10.1.el8_3.x86_64
+2021/03/19 17:36:31 [notice] 4894#4894: getrlimit(RLIMIT_NOFILE): 1024:262144
+2021/03/19 17:36:31 [notice] 4895#4895: start worker processes
+2021/03/19 17:36:31 [notice] 4895#4895: start worker process 4896
+2021/03/19 17:36:31 [notice] 4895#4895: start cache manager process 4897
+2021/03/19 17:36:31 [notice] 4895#4895: start cache loader process 4898
+2021/03/19 17:36:36 [info] 4896#4896: *1 client 127.0.0.1 closed keepalive connection
+2021/03/19 17:36:39 [info] 4896#4896: *4 client 127.0.0.1 closed keepalive connection
+2021/03/19 17:37:31 [notice] 4898#4898: http file cache: ./html/proxy_cache 0.004M, bsize: 4096
+2021/03/19 17:37:31 [notice] 4895#4895: signal 17 (SIGCHLD) received from 4898
+2021/03/19 17:37:31 [notice] 4895#4895: cache loader process 4898 exited with code 0
+2021/03/19 17:37:31 [notice] 4895#4895: signal 29 (SIGIO) received
+2021/03/19 17:40:06 [notice] 4895#4895: signal 15 (SIGTERM) received from 5347, exiting
+2021/03/19 17:40:06 [notice] 4897#4897: signal 15 (SIGTERM) received from 5347, exiting
+2021/03/19 17:40:06 [info] 4897#4897: epoll_wait() failed (4: Interrupted system call)
+2021/03/19 17:40:06 [notice] 4897#4897: exiting
+2021/03/19 17:40:06 [notice] 4896#4896: signal 15 (SIGTERM) received from 5347, exiting
+2021/03/19 17:40:06 [notice] 4896#4896: exiting
+2021/03/19 17:40:06 [notice] 4897#4897: exit
+2021/03/19 17:40:06 [notice] 4896#4896: exit
+2021/03/19 17:40:06 [notice] 4895#4895: signal 17 (SIGCHLD) received from 4897
+2021/03/19 17:40:06 [notice] 4895#4895: cache manager process 4897 exited with code 0
+2021/03/19 17:40:06 [notice] 4895#4895: signal 29 (SIGIO) received
+2021/03/19 17:40:06 [notice] 4895#4895: signal 17 (SIGCHLD) received from 4896
+2021/03/19 17:40:06 [notice] 4895#4895: worker process 4896 exited with code 0
+2021/03/19 17:40:06 [notice] 4895#4895: exit
+2021/03/19 17:40:09 [notice] 5356#5356: using the "epoll" event method
+2021/03/19 17:40:09 [notice] 5356#5356: openresty/1.19.3.1
+2021/03/19 17:40:09 [notice] 5356#5356: built by gcc 8.3.1 20191121 (Red Hat 8.3.1-5) (GCC) 
+2021/03/19 17:40:09 [notice] 5356#5356: OS: Linux 4.18.0-240.10.1.el8_3.x86_64
+2021/03/19 17:40:09 [notice] 5356#5356: getrlimit(RLIMIT_NOFILE): 1024:262144
+2021/03/19 17:40:09 [notice] 5357#5357: start worker processes
+2021/03/19 17:40:09 [notice] 5357#5357: start worker process 5358
+2021/03/19 17:40:09 [notice] 5357#5357: start cache manager process 5359
+2021/03/19 17:40:09 [notice] 5357#5357: start cache loader process 5360
+2021/03/19 17:40:11 [info] 5358#5358: *1 client 127.0.0.1 closed keepalive connection
+2021/03/19 17:40:13 [info] 5358#5358: *4 client 127.0.0.1 closed keepalive connection
+2021/03/19 17:41:09 [notice] 5360#5360: http file cache: ./html/proxy_cache 0.004M, bsize: 4096
+2021/03/19 17:41:09 [notice] 5357#5357: signal 17 (SIGCHLD) received from 5360
+2021/03/19 17:41:09 [notice] 5357#5357: cache loader process 5360 exited with code 0
+2021/03/19 17:41:09 [notice] 5357#5357: signal 29 (SIGIO) received
+2021/03/19 17:41:34 [info] 5358#5358: *7 client 127.0.0.1 closed keepalive connection
+2021/03/19 17:41:36 [info] 5358#5358: *10 client 127.0.0.1 closed keepalive connection
+2021/03/19 17:42:53 [notice] 5359#5359: signal 15 (SIGTERM) received from 5666, exiting
+2021/03/19 17:42:53 [info] 5359#5359: epoll_wait() failed (4: Interrupted system call)
+2021/03/19 17:42:53 [notice] 5359#5359: exiting
+2021/03/19 17:42:53 [notice] 5358#5358: signal 15 (SIGTERM) received from 5666, exiting
+2021/03/19 17:42:53 [info] 5358#5358: epoll_wait() failed (4: Interrupted system call)
+2021/03/19 17:42:53 [notice] 5358#5358: exiting
+2021/03/19 17:42:53 [notice] 5357#5357: signal 15 (SIGTERM) received from 5666, exiting
+2021/03/19 17:42:53 [notice] 5359#5359: exit
+2021/03/19 17:42:53 [notice] 5358#5358: exit
+2021/03/19 17:42:53 [notice] 5357#5357: signal 17 (SIGCHLD) received from 5359
+2021/03/19 17:42:53 [notice] 5357#5357: cache manager process 5359 exited with code 0
+2021/03/19 17:42:53 [notice] 5357#5357: signal 29 (SIGIO) received
+2021/03/19 17:42:53 [notice] 5357#5357: signal 17 (SIGCHLD) received from 5358
+2021/03/19 17:42:53 [notice] 5357#5357: worker process 5358 exited with code 0
+2021/03/19 17:42:53 [notice] 5357#5357: exit
+2021/03/19 17:42:58 [notice] 5673#5673: using the "epoll" event method
+2021/03/19 17:42:58 [notice] 5673#5673: openresty/1.19.3.1
+2021/03/19 17:42:58 [notice] 5673#5673: built by gcc 8.3.1 20191121 (Red Hat 8.3.1-5) (GCC) 
+2021/03/19 17:42:58 [notice] 5673#5673: OS: Linux 4.18.0-240.10.1.el8_3.x86_64
+2021/03/19 17:42:58 [notice] 5673#5673: getrlimit(RLIMIT_NOFILE): 1024:262144
+2021/03/19 17:42:58 [notice] 5674#5674: start worker processes
+2021/03/19 17:42:58 [notice] 5674#5674: start worker process 5675
+2021/03/19 17:42:58 [notice] 5674#5674: start cache manager process 5676
+2021/03/19 17:42:58 [notice] 5674#5674: start cache loader process 5677
+2021/03/19 17:43:03 [info] 5675#5675: *1 client 127.0.0.1 closed keepalive connection
+2021/03/19 17:43:06 [info] 5675#5675: *4 client 127.0.0.1 closed keepalive connection
+2021/03/19 17:43:58 [notice] 5677#5677: http file cache: ./html/proxy_cache 0.004M, bsize: 4096
+2021/03/19 17:43:58 [notice] 5674#5674: signal 17 (SIGCHLD) received from 5677
+2021/03/19 17:43:58 [notice] 5674#5674: cache loader process 5677 exited with code 0
+2021/03/19 17:43:58 [notice] 5674#5674: signal 29 (SIGIO) received
